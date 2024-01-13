@@ -1,6 +1,6 @@
 """
     Create unit tests for the function fetch_ccc_paragraph()
-    in fetch_catechism_of_the_catholic_church_paragraph.py
+    in skill_fetch_catechism_of_the_catholic_church_paragraph.py
     To run the unit tests
         python3 test_unit.py
         pytest -k test_fetch_ccc_paragraph_invalid_9999
@@ -10,11 +10,11 @@
 import unittest
 from unittest.mock import patch
 
-from fetch_catechism_of_the_catholic_church_paragraph import fetch_ccc_paragraph
+from skill_fetch_catechism_of_the_catholic_church_paragraph import fetch_ccc_paragraph
 
 class TestFetchCatechismOfTheCatholicChurchParagraph(unittest.TestCase):
     """
-    Test the function fetch_ccc_paragraph() in fetch_catechism_of_the_catholic_church_paragraph.py
+    Test the function fetch_ccc_paragraph() in skill_fetch_catechism_of_the_catholic_church_paragraph.py
     """
 
     def test_fetch_ccc_paragraph_first(self):
