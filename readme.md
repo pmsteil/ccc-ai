@@ -38,8 +38,8 @@ We may use autogenstudio or just autogen to complete this project.
 
 
 ```bash
-conda create -n autogenstudio python=3.11
-conda activate autogenstudio
+conda create -n <projectname> python=3.11
+conda activate <projectname>
 pip install -r requirements.txt
 ```
 
