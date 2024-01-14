@@ -40,6 +40,11 @@ We may use autogenstudio or just autogen to complete this project.
 ```bash
 conda create -n autogenstudio python=3.11
 conda activate autogenstudio
-pip install autogenstudio
+pip install -r requirements.txt
+```
+
+## Running the Autogen Studio if needed...
+
+```bash
 autogenstudio ui --port 8888
 ```
